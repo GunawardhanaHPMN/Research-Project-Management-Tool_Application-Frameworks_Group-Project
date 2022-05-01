@@ -21,8 +21,13 @@ This is a research project management tool designed for the SLIIT 4th-year resea
 ![iStock-470913486_web PGMT for Scientisst](https://user-images.githubusercontent.com/71486601/166139641-7efed106-9e62-4642-82a5-fc1d15635f97.jpg)
 
 
-◽️Tools and Technologies
+## Tools and Technologies
 
+Visual Studio Code
+
+![EMmRCaRUUAETjvI](https://user-images.githubusercontent.com/71486601/166139994-777fda93-e2c6-4682-a446-b4e212fe6070.jpg)
+
+MERN Stack
 
 
 
