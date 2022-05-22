@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   return mongoose
-    .connect("mongodb://localhost/contact_mern")
+    .connect("mongodb://localhost/afdb")
     .then(() => console.log(`connection to database established...`))
     .catch((err) => console.log(err));
 };
