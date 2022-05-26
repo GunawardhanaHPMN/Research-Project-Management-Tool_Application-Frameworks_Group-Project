@@ -17,7 +17,7 @@ app.use(require("cors")());
 
 // routes
 app.use("/api", require("./routes/auth"));
-app.use("/api", require("./routes/contact"));
+app.use("/api", require("./routes/registertopic"));
 app.use("/api", require("./routes/addgroup"));
 
 

@@ -6,9 +6,9 @@ import { ToastContextProvider } from "./context/ToastContext";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import CreateContact from "./pages/CreateContact";
-import AllContact from "./pages/AllContact";
-import EditContact from "./pages/EditContact";
+import RegisterTopic from "./pages/RegisterTopic";
+import AllRegisterTopic from "./pages/AllRegisterTopic";
+import EditRegisterTopic from "./pages/EditRegisterTopic";
 import AddGroup from "./pages/AddGroup";
 import AllAddGroup from "./pages/AllAddgroup";
 import EditAddgroup from "./pages/EditAddgroup";
@@ -21,9 +21,9 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/create" element={<CreateContact />} />
-            <Route path="/mycontacts" element={<AllContact />} />
-            <Route path="/edit/:id" element={<EditContact />} />
+            <Route path="/registertopic" element={<RegisterTopic />} />
+            <Route path="/myregistertopics" element={<AllRegisterTopic />} />
+            <Route path="/edit/:id" element={<EditRegisterTopic />} />
             <Route path="/addgroup" element={<AddGroup />} />
             <Route path="/alladdgroup" element={<AllAddGroup />} />
             <Route path="/editaddgroup/:id" element={<EditAddgroup />} />

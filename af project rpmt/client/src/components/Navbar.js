@@ -36,13 +36,13 @@ const Navbar = ({ title = "CMS" }) => {
             {user ? (
               <>
                 <li className="nav-item">
-                  <Link to="/mycontacts">
-                    <a className="nav-link">All Contacts</a>
+                  <Link to="/myregistertopics">
+                    <a className="nav-link">All Register Topics</a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/create">
-                    <a className="nav-link">Create</a>
+                  <Link to="/registertopic">
+                    <a className="nav-link">Topic Registration</a>
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -55,11 +55,7 @@ const Navbar = ({ title = "CMS" }) => {
                     <a className="nav-link">ADD GROUPS</a>
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link to="/registertopic">
-                    <a className="nav-link">Register Topic</a>
-                  </Link>
-                </li>
+                
                 <li
                   className="nav-item"
                   onClick={() => {

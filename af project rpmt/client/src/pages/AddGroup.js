@@ -45,7 +45,7 @@ const AddGroup = () => {
 
   return (
     <>
-      <h2>Create your contact</h2>
+      <h2>Create your topic</h2>
 
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -125,7 +125,7 @@ const AddGroup = () => {
         </div>
         <input
           type="submit"
-          value="Add Contact"
+          value="Add topic"
           className="btn btn-info my-2"
         />
       </form>
