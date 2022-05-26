@@ -15,16 +15,16 @@ const AddgroupSchema = new mongoose.Schema({
     required: [true, "mem2 is required."],
   },
   mem3: {
-    type: Number,
+    type: String,
     required: [true, "mem3 number is required."],
   },
   mem4: {
-    type: Number,
+    type: String,
     required: [true, "mem4 number is required."],
   },
   postedBy: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "Groups",
+    ref: "User",
   },
 });
 

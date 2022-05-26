@@ -50,6 +50,16 @@ const Navbar = ({ title = "CMS" }) => {
                     <a className="nav-link">ADD STUDENT GROUP</a>
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link to="/alladdgroup">
+                    <a className="nav-link">ADD GROUPS</a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/registertopic">
+                    <a className="nav-link">Register Topic</a>
+                  </Link>
+                </li>
                 <li
                   className="nav-item"
                   onClick={() => {

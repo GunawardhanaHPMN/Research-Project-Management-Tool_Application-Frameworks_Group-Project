@@ -32,7 +32,7 @@ router.post("/addgroup", auth, async (req, res) => {
 });
 
 // fetch Addgroup.
-router.get("/myaddgroupss", auth, async (req, res) => {
+router.get("/myaddgroups", auth, async (req, res) => {
   try {
     const myAddgroups = await Addgroup.find({ postedBy: req.user._id }).populate(
       "postedBy",
@@ -73,7 +73,7 @@ router.put("/addgroup", auth, async (req, res) => {
 });
 
 // delete a Addgroup.
-router.delete("/delete/:id", auth, async (req, res) => {
+router.delete("/deletegroup/:id", auth, async (req, res) => {
   const { id } = req.params;
 
   if (!id) return res.status(400).json({ error: "no id specified." });
